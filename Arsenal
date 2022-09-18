@@ -5,9 +5,9 @@ wait()
 local a = {}
 if not getgenv().ExecutedAlr then
     if syn then
-        syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/Arsenal"))()')
+        syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnonymous/Anon_Hub/main/Arsenal"))()')
     else
-        queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaScripterAnonymous/Anon/main/Arsenal"))()')
+        queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnonymous/Anon_Hub/main/Arsenal"))()')
     end
     end
     getgenv().ExecutedAlr = true
